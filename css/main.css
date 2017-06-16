@@ -250,7 +250,7 @@ button i{
 	top: 100px;
 	padding: 10px 20px;
 	display: inline-block;
-	flex-direction: column;
+	flex-flow: wrap column;
 }
 
 .cont4 h1{
@@ -302,6 +302,8 @@ form button{
 	position: relative;
 	top: 100px;
 	padding: 10px 20px;
+	display: inline-flex;
+	flex-direction: wrap column;
 }
 
 .cont5 h1{
@@ -324,6 +326,21 @@ form button{
 .cont5 a{
 	color: #2AB582;
 	text-decoration: none;
+}
+
+.caj6{
+	width: 400px;
+	flex-flow: column row;
+}
+
+.caj7{
+	width: 400px;
+	flex-flow: column row;
+}
+
+.caj8{
+	width: 400px;
+	flex-flow: column row;
 }
 
 
