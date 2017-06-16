@@ -171,16 +171,32 @@
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 100%;
-	position: absolute;
+	height: auto;
+	position: relative;
 	margin-top: 90px;
 	padding: 10px 20px;
+	display: inline-block;
+	flex-direction: column;
+}
+
+.box-1{
+	flex-grow: column wrap;
+	display: inline-flex;
+	padding: 60px 0px 20px 180px;
+}
+
+.ca{
+	width: 40%;
+}
+
+.ja{
+	width: 40%
 }
 
 .cont3 h1{
 	text-align: center;
 	margin-top: 60px;
-	font-size: 50px;
+	font-size: 50px;	
 }
 
 .cont3 i{	
@@ -210,6 +226,7 @@ button{
 	width: 290px;
 	padding: 10px;
 	font-size: 20px;
+	margin-bottom: 40px;
 }
 
 button i{
@@ -228,17 +245,18 @@ button i{
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	position: relative;
-	margin-top: 740px;
+	top: 100px;
 	padding: 10px 20px;
 	display: inline-block;
+	flex-direction: column;
 }
 
 .cont4 h1{
 	text-align: center;
 	color: black;
-	margin-top: 40px;
+	margin-top: 20px;
 	font-size: 50px;
 }
 
@@ -280,9 +298,9 @@ form button{
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 25%;
-	position: absolute;
-	margin-top: 140px;
+	height: auto;
+	position: relative;
+	top: 2700px;
 	padding: 10px 20px;
 }
 
