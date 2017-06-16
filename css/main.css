@@ -109,7 +109,7 @@
   	left: 0;
   	right: 0;
 	width: 100%;
-	height: 200%;
+	height: auto;
 	position: relative;
 	margin-top: 50px;
 	padding: 10px 20px;
@@ -182,11 +182,12 @@
 .box-1{
 	flex-grow: column wrap;
 	display: inline-flex;
-	padding: 60px 0px 20px 180px;
+	padding: 50px 0px 20px 100px;
 }
 
 .ca{
 	width: 40%;
+	margin-right: 30px;
 }
 
 .ja{
